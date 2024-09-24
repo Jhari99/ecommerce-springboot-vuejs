@@ -14,8 +14,7 @@ import io.swagger.v3.oas.models.servers.Server;
 @Configuration
 public class SwaggerConfig {
 
-  //new change  ( Cmd + K | Ctrl + K para Win y Linux)
-
+    //new change ( Cmd + K | Ctrl + K para Win y Linux)
   @Value("${joedayz.openapi.dev-url}")
   private String devUrl;
 
